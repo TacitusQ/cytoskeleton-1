@@ -1,0 +1,26 @@
+
+Time Parameters
+ nSteps: 300
+ tSamp: 5000000
+ tMax: 1500005000
+ dt: 1e-05
+ tEqLocal: 5000
+ tEqGlobal: 5000
+System Parameters
+ nSys: 3
+ lActin: 1.2
+ Contour: 3
+ nSpectrin: 10
+ particleRadius: 1.32
+ spectrinRadius: 0.0375
+ sunrise: 0
+Physics Parameters
+ D: 1
+ gamma: 1
+ epsilon: 1
+ k: 20
+ m: 1
+ dz: -0.013
+Launch time (moscow): Mon Mar 27 16:51:23 2017
+
+ w version: cytoskel2.0_1030

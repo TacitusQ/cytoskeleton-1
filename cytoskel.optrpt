@@ -1,0 +1,1167 @@
+
+Begin optimization report for: main()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into cytoskel.cpp(12,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into cytoskel.cpp(12,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(12,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(12,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(12,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(12,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at global.h(175,3) inlined into cytoskel.cpp(12,3)
+LOOP END
+
+LOOP BEGIN at analysis.h(30,3) inlined into cytoskel.cpp(13,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(31,5) inlined into cytoskel.cpp(13,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at analysis.h(53,3) inlined into cytoskel.cpp(13,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(60,5) inlined into cytoskel.cpp(13,3)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(70,5) inlined into cytoskel.cpp(13,3)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(74,5) inlined into cytoskel.cpp(13,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at analysis.h(265,3) inlined into cytoskel.cpp(13,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at analysis.h(265,3) inlined into cytoskel.cpp(13,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: _pow(double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(323,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(323,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: sysConfig()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at init.h(365,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at init.h(365,3)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at init.h(365,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at init.h(372,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at init.h(372,3)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at init.h(372,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: distBall(Ball *, Ball *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(21,3)
+<Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at physics.h(21,3)
+<Distributed chunk2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: normBall(std::vector<float, std::allocator<float>> *, Ball *, Ball *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(40,3)
+LOOP END
+
+LOOP BEGIN at physics.h(49,3)
+LOOP END
+
+LOOP BEGIN at physics.h(40,3)
+<Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at physics.h(56,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at physics.h(56,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: magForce(Ball *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(67,3)
+LOOP END
+===========================================================================
+
+Begin optimization report for: ForceSprings()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(86,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(230,3) inlined into physics.h(92,14)
+   LOOP END
+
+   LOOP BEGIN at physics.h(102,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: SurfaceForce()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(120,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(323,3) inlined into physics.h(145,9)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: updateBrownian(Ball &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(156,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at MersenneTwister.h(262,18) inlined into physics.h(164,37)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at MersenneTwister.h(262,18) inlined into physics.h(164,37)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at MersenneTwister.h(264,16) inlined into physics.h(164,37)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at MersenneTwister.h(264,16) inlined into physics.h(164,37)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at MersenneTwister.h(262,18) inlined into physics.h(164,37)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at MersenneTwister.h(262,18) inlined into physics.h(164,37)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at MersenneTwister.h(264,16) inlined into physics.h(164,37)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at MersenneTwister.h(264,16) inlined into physics.h(164,37)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: updatePosition(Ball &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(172,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at physics.h(172,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: LJforce(double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(323,3) inlined into physics.h(203,7)
+LOOP END
+===========================================================================
+
+Begin optimization report for: writeBalls(FILE *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(30,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(31,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: writeSprings(FILE *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(53,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(60,5)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(70,5)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(74,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: measureEdge(FILE *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(90,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(198,3) inlined into analysis.h(94,14)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: measureSpringEnergy()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(108,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(230,3) inlined into analysis.h(112,13)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: measureContour(FILE *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(133,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(230,3) inlined into analysis.h(137,13)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: sampleContour()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(157,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(230,3) inlined into analysis.h(160,13)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: writeForce3D()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(238,5)
+LOOP END
+===========================================================================
+
+Begin optimization report for: integrateWrappingEnergy()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(265,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at analysis.h(265,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: physics()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(30,3) inlined into cytoskel.cpp(61,7)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(31,5) inlined into cytoskel.cpp(61,7)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at analysis.h(53,3) inlined into cytoskel.cpp(61,7)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(60,5) inlined into cytoskel.cpp(61,7)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(70,5) inlined into cytoskel.cpp(61,7)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(74,5) inlined into cytoskel.cpp(61,7)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at analysis.h(265,3) inlined into cytoskel.cpp(72,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at analysis.h(265,3) inlined into cytoskel.cpp(72,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: writeForceZ(FILE *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(311,3) inlined into analysis.h(191,16)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at analysis.h(318,3) inlined into analysis.h(191,16)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at analysis.h(311,3) inlined into analysis.h(192,16)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at analysis.h(318,3) inlined into analysis.h(192,16)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into analysis.h(208,13)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into analysis.h(208,13)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into analysis.h(208,13)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into analysis.h(208,13)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into analysis.h(208,13)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into analysis.h(208,13)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: timeStep()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cytoskel.cpp(84,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at cytoskel.cpp(85,5)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at cytoskel.cpp(85,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at physics.h(86,3) inlined into cytoskel.cpp(92,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(230,3) inlined into cytoskel.cpp(92,3)
+   LOOP END
+
+   LOOP BEGIN at physics.h(102,5) inlined into cytoskel.cpp(92,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at physics.h(120,3) inlined into cytoskel.cpp(93,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(323,3) inlined into cytoskel.cpp(93,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at cytoskel.cpp(98,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at physics.h(156,3) inlined into cytoskel.cpp(102,5)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(102,5)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(102,5)
+      <Remainder>
+      LOOP END
+
+      LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(102,5)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(102,5)
+      <Remainder>
+      LOOP END
+
+      LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(102,5)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(102,5)
+      <Remainder>
+      LOOP END
+
+      LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(102,5)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(102,5)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: ParticleInteraction()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at physics.h(235,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at physics.h(56,3) inlined into physics.h(241,10)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at physics.h(21,3) inlined into physics.h(240,9)
+   LOOP END
+
+   LOOP BEGIN at physics.h(40,3) inlined into physics.h(241,10)
+   LOOP END
+
+   LOOP BEGIN at physics.h(49,3) inlined into physics.h(241,10)
+   LOOP END
+
+   LOOP BEGIN at physics.h(56,3) inlined into physics.h(241,10)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at physics.h(246,7)
+   LOOP END
+
+   LOOP BEGIN at global.h(323,3) inlined into physics.h(257,11)
+   LOOP END
+
+   LOOP BEGIN at physics.h(258,7)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<float, std::allocator<float>>::vector(std::vector<float, std::allocator<float>> *, std::vector<float, std::allocator<float>>::size_type, const std::vector<float, std::allocator<float>>::value_type &, const std::vector<float, std::allocator<float>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(231,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(231,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(231,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: doAnalysis()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at analysis.h(30,3) inlined into cytoskel.cpp(112,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(31,5) inlined into cytoskel.cpp(112,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at analysis.h(53,3) inlined into cytoskel.cpp(113,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at analysis.h(60,5) inlined into cytoskel.cpp(113,3)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(70,5) inlined into cytoskel.cpp(113,3)
+   LOOP END
+
+   LOOP BEGIN at analysis.h(74,5) inlined into cytoskel.cpp(113,3)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: Ball::Ball(Ball *, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(175,3)
+LOOP END
+===========================================================================
+
+Begin optimization report for: Ball::Ball(Ball *const, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(175,3) inlined into global.h(174,7)
+LOOP END
+===========================================================================
+
+Begin optimization report for: Ball::getForce(Ball *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(198,3)
+LOOP END
+===========================================================================
+
+Begin optimization report for: Spring::Spring(Spring *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(230,3) inlined into global.h(216,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(230,3) inlined into global.h(216,7)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Spring::Spring(Spring *const, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(230,3) inlined into global.h(207,9)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(230,3) inlined into global.h(207,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Spring::getLength(Spring *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(230,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(230,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Spring::getEnergy(Spring *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(230,3) inlined into global.h(244,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(230,3) inlined into global.h(244,7)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Edge::Edge(Edge *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(275,3) inlined into global.h(266,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(275,3) inlined into global.h(266,7)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Edge::Edge(Edge *const, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(275,3) inlined into global.h(260,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(275,3) inlined into global.h(260,7)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: Edge::getLength(Edge *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(275,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(275,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: __sti__$E()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(190,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(200,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(282,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(289,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into /usr/include/c++/4.4.7/iostream(73,25)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Ball, std::allocator<Ball>>::_M_insert_aux(std::vector<Ball, std::allocator<Ball>> *, std::vector<Ball, std::allocator<Ball>>::iterator, const std::vector<Ball, std::allocator<Ball>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(340,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(340,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(346,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(346,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Edge, std::allocator<Edge>>::_M_insert_aux(std::vector<Edge, std::allocator<Edge>> *, std::vector<Edge, std::allocator<Edge>>::iterator, const std::vector<Edge, std::allocator<Edge>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Remainder, Distributed chunk2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Spring, std::allocator<Spring>>::_M_insert_aux(std::vector<Spring, std::allocator<Spring>> *, std::vector<Spring, std::allocator<Spring>>::iterator, const std::vector<Spring, std::allocator<Spring>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(309,4)
+<Remainder, Distributed chunk2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: init()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into cytoskel.cpp(24,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into cytoskel.cpp(24,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(24,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into cytoskel.cpp(24,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(24,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into cytoskel.cpp(24,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at global.h(175,3) inlined into cytoskel.cpp(30,3)
+LOOP END
+===========================================================================
+
+Begin optimization report for: randInit()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into init.h(356,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(248,2) inlined into init.h(356,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into init.h(356,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(262,18) inlined into init.h(356,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into init.h(356,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at MersenneTwister.h(264,16) inlined into init.h(356,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: initParticle()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at global.h(175,3) inlined into init.h(275,27)
+LOOP END
+===========================================================================
+
+Begin optimization report for: spectrinInit(int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at init.h(208,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at init.h(217,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(175,3) inlined into init.h(223,18)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(175,3) inlined into init.h(223,18)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at global.h(230,3) inlined into init.h(233,38)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(230,3) inlined into init.h(233,38)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at init.h(233,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(236,42)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(236,42)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at global.h(230,3) inlined into init.h(239,38)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at global.h(230,3) inlined into init.h(239,38)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: edgeInit()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at init.h(145,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(151,13)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(152,10)
+   <Distributed chunk1>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(152,10)
+   <Distributed chunk2>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(152,10)
+   <Remainder, Distributed chunk2>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(152,10)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(152,10)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(156,20)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(161,19)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(166,19)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(151,13)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(156,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(161,19)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at global.h(275,3) inlined into init.h(166,19)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: springInit()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at init.h(65,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(71,15)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(72,12)
+   <Distributed chunk1>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(72,12)
+   <Remainder, Distributed chunk1>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(72,12)
+   <Distributed chunk2>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(72,12)
+   <Remainder, Distributed chunk2>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(72,12)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(72,12)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(76,22)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(81,21)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(86,21)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(71,15)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(76,22)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(81,21)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at global.h(230,3) inlined into init.h(86,21)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: meshInit()
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at init.h(34,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(49,15)
+   <Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(49,15)
+   <Remainder, Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(49,15)
+   <Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into init.h(49,15)
+   <Remainder, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(49,15)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(49,15)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(49,15)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into init.h(49,15)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at global.h(175,3) inlined into init.h(38,37)
+   LOOP END
+
+   LOOP BEGIN at global.h(175,3) inlined into init.h(40,41)
+   LOOP END
+LOOP END
+===========================================================================
